@@ -12,7 +12,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f8f9fa;
             font-family: Helvetica;
         }
         .container {
@@ -27,7 +26,6 @@
             margin-bottom: 2rem;
         }
         .logo img {
-            aspect-ratio: 150 / 50;
             object-fit: cover;
         }
         h1 {
@@ -48,9 +46,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Oops, something went wrong!</h1>
-        <p>We're sorry, but an unexpected error occurred.</p>
-        <p>::CLOUDFLARE_ERROR_500S_BOX::</p>
+        <div class="logo">
+            <img src="fanatics-logo.svg" alt="Fanatics">
+        </div>
+        ::CLOUDFLARE_ERROR_500S_BOX::
     </div>
 </body>
 </html>
